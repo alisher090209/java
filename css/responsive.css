@@ -1,0 +1,115 @@
+@media only screen and (max-width:768px) {
+    .container{
+        max-width: 90%;
+    }
+    .nav__logo{
+     position: fixed;
+     z-index: 1111;
+     top: 18vh;
+     right: 0;
+     background-color: rgba(0, 0, 0, 0.7    );
+     width: 100%;
+     height: 90vh;
+    }
+    .navbar  .fa-bars{
+        display: block;   
+
+    }
+    .nav__logo a{
+        margin-left: 0px;
+        margin-right: 0px;
+        display: block;
+        margin-top: 40px;
+        margin-left: 0;
+        padding-left: 0px;
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+
+    }
+    .png img{
+        display: none;
+    }
+   .fa-bars{
+        display: block;
+    }
+    
+.get__content{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.our__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2.8rem;
+}
+.our__item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.our__img:hover .add__hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    }
+    .about__content{
+        display: grid;
+        grid-template-columns:100%;
+        gap: 1rem;
+    }
+    .make{
+        width: 400px;
+        height: 200px;
+        border: 1px solid black;
+        margin: 2rem;
+    }
+    .best__content{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .best__item img{
+        width: 90%;
+        height: 100%;
+    }
+    .best__input input{
+        width: 100%;
+    }
+    
+.free__content{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.deno__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+
+.contact__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+
+.footer__content{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 4.8rem;
+    gap: 3rem;
+}
+}
+@media only screen and (max-width:368px) {
+    .navbar  .fa-bars{
+        display: block;   
+        margin-left: 0;
+    }
+    .make{
+        width: 310px;
+        height: 250px;
+        border: 1px solid black;
+        margin: 2rem;
+    }
+}
