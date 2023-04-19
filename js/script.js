@@ -3,7 +3,9 @@ const navLogo = document.querySelector(".nav__logo");
 const navAAA = document.querySelectorAll(" .nav__logo a")
 
 bars.addEventListener("click", () =>{
-    navLogo.classList.toggle ("hide");
+    navLogo.classList.toggle ("show");
+    navLogo.classList.remove ("hide");
+
 
 })
 navLogo.addEventListener("click", (Event) =>{
@@ -18,6 +20,7 @@ navLogo.addEventListener("click", (Event) =>{
         }
     })
 })
+
 const loader = document.querySelector(".loader");
 setTimeout(() =>{
 loader.classList.add("hide")

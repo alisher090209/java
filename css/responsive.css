@@ -1,4 +1,9 @@
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:768px) {.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
     .container{
         max-width: 90%;
     }
@@ -77,7 +82,10 @@
     .best__input input{
         width: 100%;
     }
-    
+    .here__content{
+        display: grid;
+        grid-template-columns: 100%;
+    }
 .free__content{
     display: grid;
     grid-template-columns: 100%;
@@ -107,10 +115,20 @@
         margin-left: 0;
     }
     .make{
-        width: 310px;
-        height: 250px;
+        width: 290px;
+        height: 260px;
         border: 1px solid black;
         margin: 2rem;
+    }.contact__item button{
+        padding: 0.9rem 5rem;
+    }
+    .contact__item input{
+        width: 100%;
+    }.hide{
+        display: none;
+    }
+    .show{
+        display: block;
     }
 }
 @media only screen and (max-width:468px) {
@@ -123,5 +141,10 @@
         height: 240px;
         border: 1px solid black;
         margin: 2rem;
+    }.hide{
+        display: none;
+    }
+    .show{
+        display: block;
     }
 }
