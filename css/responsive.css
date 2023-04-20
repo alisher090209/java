@@ -1,9 +1,6 @@
-@media only screen and (max-width:768px) {.hide{
-    display: none;
-}
-.show{
-    display: block;
-}
+@media only screen and (max-width:768px) {
+    
+
     .container{
         max-width: 90%;
     }
@@ -119,6 +116,12 @@
     grid-template-columns: 100%;
     margin-top: 4.8rem;
     gap: 3rem;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
 }
 }
 @media only screen and (max-width:368px) {

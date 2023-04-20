@@ -3,11 +3,8 @@ const navLogo = document.querySelector(".nav__logo");
 const navAAA = document.querySelectorAll(" .nav__logo a");
 
 bars.addEventListener("click", () =>{
-    navLogo.classList.toggle("show");  
-
-
-
-
+    navLogo.classList.toggle("show"); 
+    console.log(78);
 });
 navLogo.addEventListener("click", (Event) =>{
     Event.target
