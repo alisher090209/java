@@ -1,13 +1,14 @@
 const bars = document.querySelector(".fa-bars");
 const navLogo = document.querySelector(".nav__logo");
-const navAAA = document.querySelectorAll(" .nav__logo a")
+const navAAA = document.querySelectorAll(" .nav__logo a");
 
 bars.addEventListener("click", () =>{
-    navLogo.classList.toggle ("show");
-    navLogo.classList.remove ("hide");
+    navLogo.classList.toggle("show");  
 
 
-})
+
+
+});
 navLogo.addEventListener("click", (Event) =>{
     Event.target
     navAAA.forEach((item) =>{
@@ -19,7 +20,7 @@ navLogo.addEventListener("click", (Event) =>{
             }, 700)
         }
     })
-})
+});
 
 const loader = document.querySelector(".loader");
 setTimeout(() =>{
