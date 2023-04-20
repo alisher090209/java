@@ -21,6 +21,17 @@
         display: block;   
 
     }
+    .deno .title{
+        margin: 2rem;
+    }
+    .deno__item{
+        text-align: center;
+    }
+    .deno__item img{
+        width: 50%;
+        height: 50%;
+        border-radius: 100%;
+    }
     .nav__logo a{
         margin-left: 0px;
         margin-right: 0px;

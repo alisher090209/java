@@ -25,5 +25,5 @@ navLogo.addEventListener("click", (Event) =>{
 const loader = document.querySelector(".loader");
 setTimeout(() =>{
 loader.classList.add("hide")
-}, 1000)
+}, 2000)
  
